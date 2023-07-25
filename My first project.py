@@ -1,6 +1,5 @@
 import datetime
 import time
-
 import colorama
 from colorama import Fore, Style
 
@@ -69,7 +68,7 @@ def countdown():
 
 t = str(datetime.datetime.now())
 print(colorama.Fore.LIGHTYELLOW_EX + "Right now it's", colorama.Fore.YELLOW + Style.BRIGHT + t)
-print("This program is use to evaluate binary arithmetic calculations!")
+print("This program is use to evaluate arithmetic calculations!")
 print(colorama.Fore.LIGHTGREEN_EX + Style.BRIGHT + "Program is initiating...")
 countdown()
 y = int(time.strftime("%H"))
