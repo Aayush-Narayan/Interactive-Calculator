@@ -12,3 +12,5 @@ It is like a cheeky chatbot which will greet you according to the time in your c
 1.)  import datetime     
 2.)  import time     
 3.)  import colorama
+
+# Python version: 3.10 or more latest required
